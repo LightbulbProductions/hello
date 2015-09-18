@@ -3,9 +3,48 @@
 
 .intro {
      background-image: url('//farm5.staticflickr.com/4146/4946171806_f613d895e4_b.jpg');
+      border: 2rem solid black;
       background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
+    height: 50.938rem;
     overflow: auto;
+}
+
+.buttons {
+    
+}
+
+.knowledge_background {
+    background-image: url('//farm5.staticflickr.com/4112/4945587019_d54d9028fb_z.jpg');
+   border: 2rem solid black;
+      background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50.938rem;
+    overflow: auto;
+}
+
+.back_content .back_examples li {
+    display: inline-block ;
+    margin-left: 0.563rem;
+    margin-right: 0.563rem;
+    margin-top: 34rem;
+    float: right;
+    
+}
+
+.happiness_background {
+    background-image: url('//farm1.staticflickr.com/702/21310922829_b895a25b34_z.jpg');
+    border: 2rem solid black;
+      background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50.938rem;
+    overflow: auto;
+    
+}
+
+.happiness_background .content {
+    text-align: center;
 }
