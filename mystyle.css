@@ -1,24 +1,41 @@
-
-
-
+/* This is the first page */
 .intro {
-     background-image: url('//farm5.staticflickr.com/4146/4946171806_f613d895e4_b.jpg');
-      border: 2rem solid black;
-      background-position: center bottom;
+    background-image: url('//farm5.staticflickr.com/4146/4946171806_f613d895e4_b.jpg');
+    border: 2rem solid black;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 50.938rem;
     overflow: auto;
 }
 
-.buttons {
-    
+  
+.buttons li {
+    margin-top:130rem;
+    list-style-type: none;
+    width: 9.688rem;
+    border: 1 solid white;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125em;
+}
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
 }
 
+    
+
+
+/* This is the knowledge page */
 .knowledge_background {
     background-image: url('//farm5.staticflickr.com/4112/4945587019_d54d9028fb_z.jpg');
-   border: 2rem solid black;
-      background-position: center bottom;
+    border: 2rem solid black;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 50.938rem;
@@ -34,17 +51,31 @@
     
 }
 
+/* This is the happiness page */
 .happiness_background {
-    background-image: url('//farm1.staticflickr.com/702/21310922829_b895a25b34_z.jpg');
-    border: 2rem solid black;
-      background-position: center bottom;
+    background-image: url('//farm4.staticflickr.com/3722/9561529074_db0f9db886_o.jpg');
+    border: 2rem solid #3A0038;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50.938rem;
     overflow: auto;
-    
 }
 
+
 .happiness_background .content {
-    text-align: center;
+    text-align: left;
+    margin-top: 200px;
+    font-size: 1.4em;
+    color: #dcdcdc;
 }
+
+.happiness_footer .footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: none;
+  text-align: center;
+}
+
