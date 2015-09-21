@@ -1,16 +1,16 @@
 /* This is the first page */
 .intro {
-    background-image: url('//farm5.staticflickr.com/4146/4946171806_f613d895e4_b.jpg');
+    background-image: url('//farm4.staticflickr.com/3722/9561529074_375589b492_b.jpg');
     border: 2rem solid black;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50.938rem;
     overflow: auto;
 }
 
   
 .buttons li {
+    display:inline-block;
     margin-top:130rem;
     list-style-type: none;
     width: 9.688rem;
@@ -18,7 +18,6 @@
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
-    padding: 1rem 1.5rem;
     color: white;
     font-size: 1.125em;
 }
@@ -33,28 +32,34 @@ button:hover {
 
 /* This is the knowledge page */
 .knowledge_background {
-    background-image: url('//farm5.staticflickr.com/4112/4945587019_d54d9028fb_z.jpg');
+    background-image: url('//farm4.staticflickr.com/3722/9561529074_375589b492_b.jpg');
     border: 2rem solid black;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50.938rem;
     overflow: auto;
 }
-
+.back_content .h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 4em;
+    font-weight: 300;
+    color: #707070 ;
+}
 .back_content .back_examples li {
-    display: inline-block ;
-    margin-left: 0.563rem;
-    margin-right: 0.563rem;
-    margin-top: 34rem;
-    float: right;
+   
+   display: inline-block;
+   height: 300px;
+   width: 250px;
+   background-color: teal;
+   
     
 }
 
 /* This is the happiness page */
 .happiness_background {
-    background-image: url('//farm4.staticflickr.com/3722/9561529074_db0f9db886_o.jpg');
-    border: 2rem solid #3A0038;
+    background-image: url('//farm4.staticflickr.com/3722/9561529074_db0f9db886_b.jpg');
+    border: 2rem solid #696969;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,5 +82,6 @@ button:hover {
   padding: 1rem;
   background-color: none;
   text-align: center;
+  color: #FFF8DC;
 }
 
