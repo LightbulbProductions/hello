@@ -1,24 +1,29 @@
 /* This is the first page */
 .intro {
-    background-image: url('//farm4.staticflickr.com/3722/9561529074_375589b492_b.jpg');
-    border: 2rem solid black;
+    background-image: url("//farm4.staticflickr.com/3086/3162028306_a670ca7fa5_o.jpg");
+    border: 1.5rem solid #696969;
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    padding: 25px;
     overflow: auto;
 }
 
-  
+.intro_words {
+    padding: 2rem;
+    color: #FFF8DC;
+}  
 .buttons li {
     display:inline-block;
-    margin-top:130rem;
+    margin-top:40rem;
+    margin-bottom: 20rem;
     list-style-type: none;
     width: 9.688rem;
     border: 1 solid white;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
-    color: white;
+    color: #FFF8DC;
     font-size: 1.125em;
 }
 button:hover {
@@ -32,11 +37,11 @@ button:hover {
 
 /* This is the knowledge page */
 .knowledge_background {
-    background-image: url('//farm4.staticflickr.com/3722/9561529074_375589b492_b.jpg');
-    border: 2rem solid black;
+    background-image: url("http://farm4.staticflickr.com/3395/3449357520_fa70f30c89_b.jpg");
+    border: 2rem solid #696969;
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     overflow: auto;
 }
 .back_content .h2 {
@@ -58,20 +63,22 @@ button:hover {
 
 /* This is the happiness page */
 .happiness_background {
-    background-image: url('//farm4.staticflickr.com/3722/9561529074_db0f9db886_b.jpg');
+    background-image: url("http://farm3.staticflickr.com/2828/9561386016_33b0f09084_b.jpg");
     border: 2rem solid #696969;
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    padding: 30px;
     overflow: auto;
 }
 
 
 .happiness_background .content {
     text-align: left;
-    margin-top: 200px;
+    margin-top: 70px;
     font-size: 1.4em;
     color: #dcdcdc;
+    
 }
 
 .happiness_footer .footer {
