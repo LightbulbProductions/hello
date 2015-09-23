@@ -62,7 +62,7 @@ button:hover {
 }
 
 /* This is the happiness page */
-.happiness_background body {
+.happiness_background {
     background-image: url("http://farm3.staticflickr.com/2828/9561386016_33b0f09084_b.jpg");
     border: 2rem solid #696969;
     background-position: center bottom;
@@ -81,7 +81,7 @@ button:hover {
     
 }
 
-.happiness_footer .footer {
+ .footer .footer_content {
   position: fixed;
   right: 0;
   bottom: 0;
