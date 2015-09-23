@@ -19,7 +19,7 @@
     margin-bottom: 20rem;
     list-style-type: none;
     width: 9.688rem;
-    border: 1 solid white;
+    border: 1 solid #dcdcdc;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
@@ -37,7 +37,7 @@ button:hover {
 
 /* This is the knowledge page */
 .knowledge_background {
-    background-image: url("http://farm4.staticflickr.com/3395/3449357520_fa70f30c89_b.jpg");
+    background-image: url("//farm4.staticflickr.com/3395/3449357520_fa70f30c89_b.jpg");
     border: 2rem solid #696969;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -61,14 +61,14 @@ button:hover {
     
 }
 
-/* This is the happiness page */
+/*/* This is the happiness page */
 .happiness_background {
     background-image: url("http://farm3.staticflickr.com/2828/9561386016_33b0f09084_b.jpg");
     border: 2rem solid #696969;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 30px;
+    padding: 25px;
     overflow: auto;
 }
 
@@ -78,16 +78,14 @@ button:hover {
     margin-top: 70px;
     font-size: 1.4em;
     color: #dcdcdc;
-    
+    padding: 25px;
 }
 
-.happiness_footer .footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: none;
+ .footer {
+  position: relative;
+  margin: -3rem;
   text-align: center;
-  color: #FFF8DC;
+  background-color: none;
+  color:  #dcdcdc;
+  font-size: 1rem;
 }
